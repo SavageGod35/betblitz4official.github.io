@@ -1,0 +1,242 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+/* Header styles */
+header {
+    background-color: #ff6600;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo img {
+    width: 50px; /* Adjust size as needed */
+    margin-left: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #333;
+}
+
+/* Main content styles */
+main {
+    padding: 20px;
+}
+
+.predictions,
+.vip,
+.success-content {
+    margin-bottom: 50px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.predictions h2,
+.vip h2,
+.success-content h2 {
+    color: #ff6600;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #ff6600;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ff6347;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Contact options styles */
+.contact-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.contact-icons a {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.contact-icons img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #007bff;
+    padding: 5px;
+}
+
+.table{
+width: 100%;
+margin: 0 auto;
+margin-top: 5%;
+padding: 4%;
+box-shadow: 0 0 5px white;
+border-radius: 1rem;
+border: 2px solid white;
+height: 38vh;
+scroll-behavior: smooth;
+scroll-snap-type-y: auto;
+overflow-y: auto;
+overflow-x: auto;
+overflow: auto;
+}
+.adminBtn{
+padding: 0 0 3% 0;
+}
+.table button{
+width: 100%;
+height: 5vh;
+display: none;
+border-radius: 0.4rem;
+color: white;
+box-shadow: 0 0 6px black;
+background: dodgerblue;
+font-weight: bolder;
+border: 2px solid dodgerblue;
+}
+.table button:active{
+background: white;
+color: dodgerblue;
+}
+.tableHeadText{
+padding: 2% 0 6% 0;
+display: flex;
+justify-content: space-around;
+}
+.tableHeadText h3{
+margin-top: 2%;
+}
+.tableHeadText p{
+font-size: 1.5rem;
+text-shadow: 1px 1px;
+padding: 1% 0;
+transition: 0.3 linear all;
+cursor: pointer;
+border-radius: 0.3rem;
+box-shadow: 0 0 6px red;
+animation: tableparagraph 2s infinite ease-in-out;
+}
+@keyframes tableparagraph{
+25%{
+transform: translateX(-20%);
+}
+75%{
+transform: translateX(20%);
+}
+}
+.tableHeadText p:active{
+background: dodgerblue;
+}
+.tableHeadText p:hover{
+background: dodgerblue;
+}
+.tableHead {
+background-color: #ff6600;
+padding: 3% 0;
+border-radius: 0.2rem;
+margin: 0 auto;
+justify-content: space-around;
+display: flex;
+}
+.tableHead h3 {
+color: white;
+}
+.tableUl{
+margin-top: 3%;
+padding: 0;
+background: white;
+border-radius: 0.2rem;
+}
+.sportHead{
+background: dodgerblue;
+padding: 2% 0;
+}
+.tableLi {
+margin-top: 2%;
+padding: 4% 0 0 0;
+background: white;
+border-bottom: 1px solid black;
+}
+.tableLi p{
+color: black;
+font-weight: bolder;
+}
+.tableLi div{
+margin: 0 auto;
+background: white;
+width: 100%;
+height: 5vh;
+float: center;
+display: flex;
+justify-content: space-around;
+}
+.tableLi div div{
+display: flex;
+}
+.tableLi p {
+font-size: 14px;
+}
+.tableUl {
+list-style-type: none;
+}
+footer {
+    background-color: #ff6600;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    font-family: Arial, sans-serif; /* Change the font family */
+    font-size: 14px; /* Change the font size */
+    font-weight: bold; /* Change the font weight */
+}
+
+footer p {
+    margin: 0; /* Remove default margin */
+}
+#warningMessage {
+    background-color: #ffcccb;
+    color: #f00;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+}

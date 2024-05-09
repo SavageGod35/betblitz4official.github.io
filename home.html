@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BetBlitz Football Predictions</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="Football Predictions Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="vip.html">Vip</a></li>
+                <li><a href="success.html">Success</a></li>
+                <li><a href="contact.html">Contact</a></li>        
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="predictions">
+            <h2>Daily Free Predictions</h2>
+<div class="table">
+<div class="tableHeadText">
+<h3>09 May 2024</h3>
+<p class="infoDisp" onclick="showWarning()">⚠️</p>
+</div>
+<div class="tableHead">
+<h3> Teams </h3>
+<h3>|</h3>
+<h3> Tip </h3>
+<h3>|</h3>
+<h3> Odds </h3>
+</div>
+
+<ul class="tableUl">
+    <!-- First row -->
+    <li class="tableLi" ng-repeat="freebet in freebets">
+        <div>
+            <div><p> Man United Man City</p></div>
+            <div><p> Over 1.5</p></div>
+            <div><p> 2.00 </p></div>
+        </div>
+        <hr> <!-- Thin black line -->
+    </li>
+
+    <!-- Second row -->
+    <li class="tableLi" ng-repeat="anotherbet in anotherbets">
+        <div>
+            <div><p> Liverpool Barcelona</p></div>
+            <div><p> Home/Draw </p></div>
+            <div><p> 1.57 </p></div>
+        </div>
+        <hr> <!-- Thin black line -->
+    </li>
+
+    <!-- Third row -->
+    <li class="tableLi" ng-repeat="thirdbet in thirdbets">
+        <div>
+            <div><p> Leverkusen Dortmund</p></div>
+            <div><p> Both Teams To Score</p></div>
+            <div><p> 1.27 </p></div>
+        </div>
+        <hr> <!-- Thin black line -->
+    </li>
+
+    <!-- Fourth row -->
+    <li class="tableLi" ng-repeat="fourthbet in fourthbets">
+        <div>
+            <div><p> Real Madrid Valencia</p></div>
+            <div><p> Home Win </p></div>
+            <div><p> 1.19 </p></div>
+        </div>
+        <hr> <!-- Thin black line -->
+    </li>
+
+    <!-- Fifth row -->
+    <li class="tableLi" ng-repeat="fifthbet in fifthbets">
+        <div>
+            <div><p> Amsterdam Psv</p></div>
+            <div><p> Over 7.5 Corners </p></div>
+            <div><p> 1.30 </p></div>
+        </div>
+        <hr> <!-- Thin black line -->
+    </li>
+</ul>
+
+            </div>
+        </section>
+
+        <section class="vip">
+            <h2>VIP Section</h2>
+            <p>This section is locked. Subscribe to unlock premium predictions by contacting the owner by clicking the "Contact" menu.</p>
+            <!-- Add a subscription form here -->
+        </section>
+        
+        <section class="about">
+            <h1>About Us</h1>
+            <p>Welcome to BetBliz Football Predictions, your go-to platform for daily football tips and predictions. We strive to provide accurate and reliable predictions to enhance your betting experience. Our team of experts analyzes matches and statistics to bring you the best betting insights.</p>
+            <p>Feel free to explore our free bets section for daily predictions, and consider subscribing to our VIP section for premium tips and exclusive content.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p> Professor Daniel Technologies &copy; 2024</p>
+    </footer>
+
+        </div>
+    </div>
+</body>
+</html>
